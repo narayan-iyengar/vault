@@ -17,7 +17,7 @@ understand some best practices.
 ## MFA and CIDR Check on Login
 
 The following Sentinel policy requires the incoming user to successfully
-validate with an Okta MFA push request before authenticating with LDAP.
+validate with an Ping MFA push request before authenticating with LDAP.
 Additionally, it ensures that only users on the 10.20.0.0/16 subnet are able to
 authenticate using LDAP.
 
